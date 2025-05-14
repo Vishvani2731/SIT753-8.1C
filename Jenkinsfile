@@ -34,7 +34,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying application...'
-                echo 'Automatically Running the code'
             }
         }
     }
